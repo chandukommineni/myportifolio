@@ -7,6 +7,7 @@ import { Bio } from '../../data/constants';
 import {Tilt } from "react-tilt";
 import {motion} from "framer-motion";
 import {headTextAnimation,headContainerAnimation,headContentAnimation} from "../../utils/motion"
+
 const HeroSection = () => {
     return (
         <div id="about">
