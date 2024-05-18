@@ -96,7 +96,7 @@ const CardContainer = styled.div`
 const Projects = ({ openModal, setOpenModal }) => {
   const [toggle, setToggle] = useState("all");
   return (
-    <Container id="Projects">
+    <Container id="projects">
       <Wrapper>
         <Title>Projects</Title>
         <Desc
