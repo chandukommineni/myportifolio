@@ -61,7 +61,7 @@ const Desc = styled.div`
 
 const index = () => {
   return (
-    <Container id="Experience">
+    <Container id="experience">
       <Wrapper>
         <Title>Experience</Title>
         <Desc
