@@ -98,6 +98,7 @@ const Projects = ({ openModal, setOpenModal }) => {
   const [toggle, setToggle] = useState("all");
   return (
     <Container id="Projects">
+      <StarCanvas/>
       <Wrapper>
         <Title>Projects</Title>
         <Desc
