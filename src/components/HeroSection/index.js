@@ -7,12 +7,13 @@ import { Bio } from '../../data/constants';
 import {Tilt } from "react-tilt";
 import {motion} from "framer-motion";
 import {headTextAnimation,headContainerAnimation,headContentAnimation} from "../../utils/motion"
-
+import StarCanvas from "../canvas/Stars"
 const HeroSection = () => {
     return (
         <div id="about">
             <HeroContainer>
                 <HeroBg>
+                    <StarCanvas/>
                     <HeroBgAnimation />
                 </HeroBg>
 
@@ -33,7 +34,7 @@ const HeroSection = () => {
                                     }}
                                 />
                             </Span>                        
-                            </TextLoop>
+                        </TextLoop>
                             <SubTitle>{Bio.description}</SubTitle>
                         </motion.div>
                                                

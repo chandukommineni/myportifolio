@@ -11,7 +11,7 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-        <a href="/#" style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20px', cursor: 'pointer',textDecoration:"none" }}>
+        <a href="/" style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20px', cursor: 'pointer',textDecoration:"none" }}>
              <Span ><span style={{color:"#854CE6",fontSize:"25px"}}>{"<"}</span>{"Chandu"} <span style={{color:"#854CE6"}}>{"/"}</span> {"Kommineni"} <span style={{color:"#854CE6",fontSize:"25px"}}>{">"}</span></Span>
           </a>
         </NavLogo>

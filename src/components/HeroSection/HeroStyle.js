@@ -134,15 +134,22 @@ export const TextLoop = styled.div`
   gap: 12px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
+
+
+
   @media (max-width: 960px) {
     text-align: center;
-  }
-  @media (max-width: 640px) {
     font-size: 22px;
     line-height: 48px;
     margin-bottom: 16px;
+   
+  }
+  @media (min-width: 600px) and (max-width: 900px) {
+    margin-left:100px;
+    font-size:28px
   }
 `;
+
 
 export const Span = styled.span`
   color: ${({ theme }) => theme.primary};

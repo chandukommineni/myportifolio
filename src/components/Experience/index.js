@@ -13,6 +13,7 @@ import { experiences } from '../../data/constants';
 import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
+import StarCanvas from "../canvas/Stars"
 
 const Container = styled.div`
 margin-top: 100px;
@@ -62,6 +63,7 @@ const Desc = styled.div`
 const index = () => {
   return (
     <Container id="experience">
+      <StarCanvas/>
       <Wrapper>
         <Title>Experience</Title>
         <Desc
