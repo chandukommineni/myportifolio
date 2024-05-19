@@ -64,6 +64,7 @@ const index = () => {
   return (
     <Container id="experience">
       <StarCanvas/>
+  
       <Wrapper>
         <Title>Experience</Title>
         <Desc
