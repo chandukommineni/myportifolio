@@ -224,7 +224,7 @@ export const education = [
     school: "Parul University, Vadodara",
     date: "August 2021 - March 2025",
     grade: "8.49 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Parul Institute of Engineering and Technology, Vadodara. I have completed 4 semesters and have a CGPA of 8.2. I have taken courses in Artificial Intelligence, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Parul Institute of Engineering and Technology, Vadodara. I have completed 6 semesters and have a CGPA of 8.49. I have taken courses in Artificial Intelligence, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
