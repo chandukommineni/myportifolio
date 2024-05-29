@@ -151,10 +151,10 @@ const Contact = () => {
         <Desc>Feel free to reach out for any inquiries or potential collaborations! I'm here to assist and explore exciting opportunities with you.</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="email" id="email"/>
-          <ContactInput placeholder="Your Name" name="name" id="name" />
-          <ContactInput placeholder="Contact No" name="tel" id="tel" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" id="message" />
+          <ContactInput placeholder="Your Email" name="email" id="email" required/>
+          <ContactInput placeholder="Your Name" name="name" id="name" required />
+          <ContactInput placeholder="Contact No" name="tel" id="tel" required/>
+          <ContactInputMessage placeholder="Message" rows="4" name="message" id="message" required/>
           <ContactButton type="submit" value="Send" />
         </ContactForm>
         <Snackbar
