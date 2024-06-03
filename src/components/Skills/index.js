@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { skills } from '../../data/constants'
 import {Tilt} from 'react-tilt';
-import StarCanvas from "../canvas/Stars"
+import AnimationStars from "../canvas/AnimationStars"
 
 const Container = styled.div`
 display: flex;
@@ -124,7 +124,7 @@ const SkillImage = styled.img`
 const Skills = () => {
   return (
     <Container id="skills">
-      <StarCanvas/>
+      <AnimationStars/>
       <Wrapper>
         <Title>Skills</Title>
         <Desc>Here are some of my skills on which I have been working on for the past 2 years.

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { projects } from "../../data/constants";
 import ProjectCard from "../Cards/ProjectCards";
-import StarCanvas from "../canvas/Stars"
+import AnimationStars from "../canvas/AnimationStars"
 
 const Container = styled.div`
 margin-top: 100px;
@@ -98,7 +98,7 @@ const Projects = ({ openModal, setOpenModal }) => {
   const [toggle, setToggle] = useState("all");
   return (
     <Container id="projects">
-      <StarCanvas/>
+      <AnimationStars/>
       <Wrapper>
         <Title>Projects</Title>
         <Desc

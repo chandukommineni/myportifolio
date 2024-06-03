@@ -7,7 +7,7 @@ import EducationCard from '../Cards/EducationCard';
 
 import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import StarCanvas from "../canvas/Stars"
+import AnimationStars from "../canvas/AnimationStars"
 
 const Container = styled.div`
 margin-top: 100px;
@@ -57,7 +57,7 @@ const Desc = styled.div`
 const index = () => {
   return (
     <Container id="education">
-      <StarCanvas/>
+      <AnimationStars/>
       <Wrapper>
         <Title>Education</Title>
         <Desc
