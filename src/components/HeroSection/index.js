@@ -7,13 +7,13 @@ import { Bio } from '../../data/constants';
 import {Tilt } from "react-tilt";
 import {motion} from "framer-motion";
 import {headTextAnimation,headContainerAnimation,headContentAnimation} from "../../utils/motion"
-import StarCanvas from "../canvas/Stars"
+import AnimationStars from "../canvas/AnimationStars"
 const HeroSection = () => {
     return (
         <div id="about">
             <HeroContainer>
                 <HeroBg>
-                    <StarCanvas/>
+                    <AnimationStars/>
                     <HeroBgAnimation />
                 </HeroBg>
 
