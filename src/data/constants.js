@@ -249,6 +249,43 @@ export const education = [
 
 export const projects = [
   {
+    id: 10,
+    title: "CryptoSphere",
+    date: "June 2024",
+    description:"Designed and developed a comprehensive cryptocurrency website with ReactJS, Redux Toolkit, and Ant Design (antd) for an intuitive user interface and efficient state management. Users can access real-time prices of various cryptocurrencies, read the latest news related to crypto coins, and view detailed information on upcoming coins with real-time charts. The application follows good development principles, ensuring clean, maintainable, and scalable code. Integrates seamlessly with multiple cryptocurrency APIs for accurate and up-to-date data.",
+    image:"https://firebasestorage.googleapis.com/v0/b/portifolioimages.appspot.com/o/cryptospehre.png?alt=media&token=1be6c6f3-27e1-4f20-a279-bfd4d69e65c4",
+    tags: [
+      "React JS",
+      "Redux Toolkit",
+      "Html",
+      "Javascript",
+      "RapidApi",
+      "AntDesign"
+
+    ],
+    category: "web app",
+    github: "https://github.com/chandukommineni/cryptoSphere.git",
+    webapp: "https://crypto-sphere-one.vercel.app/",
+  },
+  {
+    id: 9,
+    title: "Movix",
+    date: "May 2024",
+    description:
+    "Developed a user-friendly web application with ReactJS and Redux Toolkit for intuitive user interface and state management. Users can browse, search, and filter movies and TV shows, and view detailed information. The application prioritizes clean, modular code,reflecting strong development practices... Integrates seamlessly with a TMDB API for real-time data and updates.",
+    image:"https://firebasestorage.googleapis.com/v0/b/portifolioimages.appspot.com/o/Screenshot%202024-06-03%20161858.png?alt=media&token=851b589a-4e7f-4611-8063-76cb47db67e9",
+    tags: [
+      "React JS",
+      "Redux Toolkit",
+      "Html",
+      "Javascript",
+      "TMDB API"
+    ],
+    category: "web app",
+    github: "https://github.com/chandukommineni/movix.git",
+    webapp: "https://movix-beige-seven.vercel.app/",
+  },
+  {
     id: 1,
     title: "Restaurant Food Ordering Application",
     date: "Jan 2024",
