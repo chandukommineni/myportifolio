@@ -240,7 +240,7 @@ export const education = [
     img: "https://media.licdn.com/dms/image/D4D0BAQFGWqY-QmlfrA/company-logo_200_200/0/1685511548650/paruluniversity_logo?e=2147483647&v=beta&t=3mOMlWrM8QfTk-2Wadrcf1pJ_AgLkpGDyon0PgvGx10",
     school: "Parul University, Vadodara",
     date: "August 2021 - March 2025",
-    grade: "8.49 CGPA",
+    grade: "8.62 CGPA",
     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Parul Institute of Engineering and Technology, Vadodara. I have completed 6 semesters and have a CGPA of 8.49. I have taken courses in Artificial Intelligence, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
